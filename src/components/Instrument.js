@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import '../App.css';
 
 function Instrument(props) {
 	const [playing, setPlaying] = useState(false);

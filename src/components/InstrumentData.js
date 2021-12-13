@@ -23,7 +23,7 @@ import triangle from '../sounds/triangle.mp3'
 const instrumentData = [
     {
         id: 1,
-        name: 'Thai-gong',
+        name: 'thai-gong',
         img: thaiImg,
         sound: thai,
         key: "1"
