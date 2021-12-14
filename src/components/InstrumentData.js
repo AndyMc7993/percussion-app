@@ -33,21 +33,21 @@ const instrumentData = [
         name: 'Gong',
         img: gongImg,
         sound: gong,
-        key: "4"
+        key: "2"
     },
     {
         id: 3,
         name: 'Triangle',
         img: triangleImg,
         sound: triangle,
-        key: "2"
+        key: "3"
     },
     {
         id: 4,
         name: 'Cow-bell',
         img: cowbellImg,
         sound: cowbell,
-        key: "3"
+        key: "4"
     },
     {
         id: 5,

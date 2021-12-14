@@ -21,175 +21,65 @@ body{
 /* Title */
 
 .title{
-  font-size: 3rem;
+  font-size: 4.25rem;
+  letter-spacing: 0.25rem;
+  margin-bottom: 0%;
+  padding-bottom: 0;
 }
 
 .extra{
+  padding-top: 1.5em;
   color: violet;
   font-size: 1.2rem ;
 }
 
 .info{
-  margin-bottom: 0.5em;
+  margin: 0.5em 1em;
+  padding-top: 0%;
   font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.desktop-info{
+  display: none;
+}
+
+.header{
+  margin-bottom: 2.5em;
 }
 
 /* Instruments section */
 
 .instrument-container{
   display: flex;
-  max-height: 60%;
-  max-width: 90%;
-  padding: 0;
-  }
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
-.instrument{
-  position: relative;
-  display: block;
-  cursor: pointer;
+.instrument-img{
+  width: 15vw;
+  object-fit: fill;
+  height: auto;
+  margin:0;
+  padding: 0;
+}
+
+.instrument-box{
+  margin: 1em 2em;
 }
 
 .key{
   z-index: 100;
   color: white;
   margin: auto;
-  margin-top: 45%;
   position: relative;
+  top: -2.2em;
   padding: 0%;
   width: 10%;
   font-size: 1.5rem;
   text-shadow: 2px 2px black;
-}
-
-.instrument-img{
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  margin:0;
-  width: 100%;
-  height: auto; 
-  min-width: 2em;
-}
-
-.instrument-box{
-  position: relative;
-  display: block;
-  margin:0;
-  padding: 0;
-  width:fit-content;
-  height: 50%;
-}
-
-/* Instrument Positioning */
-
-.instrument-box:nth-child(1) {
-  position: absolute;
-  width: 10vw;
-  height: 20vw;
-  top: 50%;
-  left: 5%;
-}
-
-.instrument-box:nth-child(2) {
-  position: absolute;
-  width: 10vw;
-  height: 10vw;
-  z-index: 2;
-  right: 5%;
-  top: 50%;
-}
-
-.instrument-box:nth-child(3) {
-  position: absolute;  
-  width: 5vw;
-  height: 5vw;
-  left: 40%;
-  top: 28%;
-  z-index: 6;
-}
-
-.instrument-box:nth-child(4) {
-  position: absolute;  
-  width: 4vw;
-  height: 4vw;
-  right: 43%;
-  top: 26%;
-  z-index: 6;
-}
-
-.instrument-box:nth-child(5) {
-  position: absolute;  
-  width: 9vw;
-  height: 9vw;
-  left: 25%;
-  bottom: 30%;
-  z-index: 5;
-}
-
-.instrument-box:nth-child(6) {
-  position: absolute;  
-  width: 11vw;
-  height: 11vw;
-  left: 28.5%;
-  bottom: 45%;
-  z-index: 5;
-}
-
-.instrument-box:nth-child(7) {
-  position: absolute;  
-  width: 8.5vw;
-  height: 8.5vw;
-  left: 40%;
-  bottom: 45%;
-  z-index: 4;
-}
-
-.instrument-box:nth-child(8) {
-  position: absolute;  
-  width: 8.5vw;
-  height: 8.5vw;
-  left: 49%;
-  bottom: 45%;
-  z-index: 4;
-}
-
-.instrument-box:nth-child(9) {
-  position: absolute;  
-  width: 12.5vw;
-  height: 12.5vw;
-  right: 29%;
-  bottom: 44%;
-  z-index: 4;
-}
-
-.instrument-box:nth-child(10) {
-  position: absolute;
-  width: 10.5vw;
-  height: 10.5vw;
-  right: 35%;
-  bottom: 27%;
-}
-
-.instrument-box:nth-child(11) {
-  position: absolute;
-  width: 7.5vw;
-  height: 7.5vw;
-  left: 34.5%;
-  bottom: 33%;
-  z-index: 2;
-}
-
-.instrument-box:nth-child(12) {
-  position: absolute;
-  order: 10;
-  width: 12.5vw;
-  height: 12.5vw;
-  left: 42%;
-  bottom: 24%;
-  z-index: 2;
 }
 
 /* Instrument Playing */
@@ -198,8 +88,11 @@ body{
   transform: scale(0.95);
   margin: 0;
   padding: 0;
-  border: 1px solid white;
+  width: fit-content;
   background-image: radial-gradient(
+    rgba(255,255,255,1.00) 60%, 
+    rgba(255,255,255,0.65) 62%, 
+    rgba(255,255,255,0.50) 66%,
     rgba(255,255,255,0.20) 67%,
     rgba(255,255,255,0.03) 70%,
     rgba(255,255,255,0.00) 73%
@@ -211,7 +104,7 @@ body{
 .footer {
   color: lightgray;
   font-size: 1.2rem;
-  position: absolute;
+  position: relative;
   bottom: 0.5em;
   left: 0;
   right: 0;
@@ -225,6 +118,170 @@ body{
   color: violet;
 }
 
-/*Individual Instruments */
+/* Desktop */
 
+@media screen and (min-width: 1040px) {
 
+  .header{
+    margin-bottom: 3em;
+  }
+
+  .desktop-info{
+    display: block;
+  }
+
+  .mobile-info{
+    display: none;
+  }
+
+  .instrument-img{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: auto; 
+    min-width: 2em;
+  }
+
+  .instrument-box:nth-child(1) {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 50%;
+    left: 9%;
+  }
+  
+  .instrument-box:nth-child(2) {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    z-index: 2;
+    right: 13%;
+    top: 50%;
+  }
+  
+  .instrument-box:nth-child(3) {
+    position: absolute;  
+    width: 5vw;
+    height: 5vw;
+    left: 40%;
+    top: 38%;
+    z-index: 6;
+  }
+  
+  .instrument-box:nth-child(4) {
+    position: absolute;  
+    width: 4vw;
+    height: 4vw;
+    right: 43%;
+    top: 37%;
+    z-index: 6;
+  }
+  
+  .instrument-box:nth-child(5) {
+    position: absolute;  
+    width: 9vw;
+    height: 9vw;
+    left: 25%;
+    bottom: 30%;
+    z-index: 5;
+  }
+  
+  .instrument-box:nth-child(6) {
+    position: absolute;  
+    width: 11vw;
+    height: 11vw;
+    left: 28.5%;
+    bottom: 45%;
+    z-index: 5;
+  }
+  
+  .instrument-box:nth-child(7) {
+    position: absolute;  
+    width: 8.5vw;
+    height: 8.5vw;
+    left: 40%;
+    bottom: 45%;
+    z-index: 4;
+  }
+  
+  .instrument-box:nth-child(8) {
+    position: absolute;  
+    width: 8.5vw;
+    height: 8.5vw;
+    left: 49%;
+    bottom: 45%;
+    z-index: 4;
+  }
+  
+  .instrument-box:nth-child(9) {
+    position: absolute;  
+    width: 12.5vw;
+    height: 12.5vw;
+    right: 27%;
+    bottom: 44%;
+    z-index: 4;
+  }
+  
+  .instrument-box:nth-child(10) {
+    position: absolute;
+    width: 10.5vw;
+    height: 10.5vw;
+    right: 30%;
+    bottom: 29%;
+    z-index: 3;
+  }
+  
+  .instrument-box:nth-child(11) {
+    position: absolute;
+    width: 7.5vw;
+    height: 7.5vw;
+    left: 34.5%;
+    bottom: 33%;
+    z-index: 2;
+  }
+  
+  .instrument-box:nth-child(12) {
+    position: absolute;
+    order: 10;
+    width: 12.5vw;
+    height: 12.5vw;
+    left: 42%;
+    bottom: 30%;
+    z-index: 2;
+  }
+
+  .footer {
+    color: lightgray;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0.5em;
+    left: 0;
+    right: 0;
+  }
+
+}
+
+@media screen and (min-width: 1300px) {
+
+  .instrument-box:nth-child(3) {
+    position: absolute;  
+    width: 5vw;
+    height: 5vw;
+    left: 40%;
+    top: 30%;
+    z-index: 6;
+  }
+  
+  .instrument-box:nth-child(4) {
+    position: absolute;  
+    width: 4vw;
+    height: 4vw;
+    right: 43%;
+    top: 29%;
+    z-index: 6;
+  }
+}

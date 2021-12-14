@@ -8,10 +8,10 @@ export default function Percussion(){
     const[sounds, setSounds] = useState(InstrumentData)
     
         return(
-            <div className="App">
+            <div className="instrument-section">
 			    <div className="instrument-container">
 				    {sounds.map((sound, i) => (
-				    	<Instrument key={i} img={sound.img} letter={sound.key} sound={sound.sound} />
+				    	<Instrument className="instrument" key={i} img={sound.img} letter={sound.key} sound={sound.sound} />
 				    ))}
 			    </div>
 		</div>
