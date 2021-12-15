@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/percussion-app/static/css/main.490e772f.chunk.css",
+    "main.js": "/percussion-app/static/js/main.9558f89c.chunk.js",
+    "main.js.map": "/percussion-app/static/js/main.9558f89c.chunk.js.map",
+    "runtime-main.js": "/percussion-app/static/js/runtime-main.09b791d9.js",
+    "runtime-main.js.map": "/percussion-app/static/js/runtime-main.09b791d9.js.map",
+    "static/js/2.dcae235f.chunk.js": "/percussion-app/static/js/2.dcae235f.chunk.js",
+    "static/js/2.dcae235f.chunk.js.map": "/percussion-app/static/js/2.dcae235f.chunk.js.map",
+    "static/js/3.1fa9652d.chunk.js": "/percussion-app/static/js/3.1fa9652d.chunk.js",
+    "static/js/3.1fa9652d.chunk.js.map": "/percussion-app/static/js/3.1fa9652d.chunk.js.map",
+    "index.html": "/percussion-app/index.html",
+    "static/css/main.490e772f.chunk.css.map": "/percussion-app/static/css/main.490e772f.chunk.css.map",
+    "static/js/2.dcae235f.chunk.js.LICENSE.txt": "/percussion-app/static/js/2.dcae235f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/percussion-app/static/media/bg.a02e5515.jfif",
+    "static/media/bass-drum.58a0ed2f.mp3": "/percussion-app/static/media/bass-drum.58a0ed2f.mp3",
+    "static/media/cowbell.5ea95e0a.mp3": "/percussion-app/static/media/cowbell.5ea95e0a.mp3",
+    "static/media/cymbal.61b8e4cf.png": "/percussion-app/static/media/cymbal.61b8e4cf.png",
+    "static/media/cymbal1.e221c3b6.mp3": "/percussion-app/static/media/cymbal1.e221c3b6.mp3",
+    "static/media/cymbal2.498aadcf.mp3": "/percussion-app/static/media/cymbal2.498aadcf.mp3",
+    "static/media/drum.8752f1e9.png": "/percussion-app/static/media/drum.8752f1e9.png",
+    "static/media/gong.608700e3.mp3": "/percussion-app/static/media/gong.608700e3.mp3",
+    "static/media/gong.e7fe45dc.png": "/percussion-app/static/media/gong.e7fe45dc.png",
+    "static/media/hi-hat.482e5231.wav": "/percussion-app/static/media/hi-hat.482e5231.wav",
+    "static/media/snare.c03162a3.mp3": "/percussion-app/static/media/snare.c03162a3.mp3",
+    "static/media/thai-gong.4678fae3.mp3": "/percussion-app/static/media/thai-gong.4678fae3.mp3",
+    "static/media/thai-gong.ee458d2e.png": "/percussion-app/static/media/thai-gong.ee458d2e.png",
+    "static/media/tom1.562edc31.mp3": "/percussion-app/static/media/tom1.562edc31.mp3",
+    "static/media/tom2.b89ed9f5.mp3": "/percussion-app/static/media/tom2.b89ed9f5.mp3",
+    "static/media/tom3.9fb15606.mp3": "/percussion-app/static/media/tom3.9fb15606.mp3",
+    "static/media/triangle.17770e6c.png": "/percussion-app/static/media/triangle.17770e6c.png",
+    "static/media/triangle.eea46e25.mp3": "/percussion-app/static/media/triangle.eea46e25.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b791d9.js",
+    "static/js/2.dcae235f.chunk.js",
+    "static/css/main.490e772f.chunk.css",
+    "static/js/main.9558f89c.chunk.js"
+  ]
+}
