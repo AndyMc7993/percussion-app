@@ -45,6 +45,10 @@ body{
   display: none;
 }
 
+.mobile-info{
+  display: inline-block;
+}
+
 .header{
   margin-bottom: 2.5em;
 }
